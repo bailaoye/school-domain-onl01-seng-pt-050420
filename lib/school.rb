@@ -27,7 +27,7 @@ class School
 
   def sort
     @roster.each do |hash_key, hash_value|
-      #sort and store in hash
+      #sort and store in hash with !
       hash_value.sort!
     end
   end
